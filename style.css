@@ -1,38 +1,22 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background: linear-gradient(green, blue);
+}
+.wrapper {
+    height: 100vh;
+}
+.navbar {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.342);
+    height: 100px;
+    width: 100vw;
 }
 
-body {
-}
-h1 {
-    font-size: 3rem;
-}
-h2 {
-    font-size: 2rem;
-}
-.nav {
-    overflow: hidden;
-    position: fixed;
-}
-.nav a {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: rgba(255, 255, 255, 0.7);
-    text-decoration: none;
-    margin: 10vw;
-}
-.bg-img {
-    color: rgba(255, 255, 255, 0.575);
-    width: 100vw;
-    height: calc(100vh - 100px);
-    background: url("./background-mountains.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+@media screen and (min-width: 1000px) {
+    body {
+        background: red;
+    }
 }
