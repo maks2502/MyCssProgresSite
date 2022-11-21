@@ -19,7 +19,6 @@ function save() {
 }
 
 function resetAll() {
-    saves = "";
-    savesElement.innerText = "None";
     saves = " | ";
+    savesElement.innerText = "None";
 }
