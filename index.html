@@ -8,12 +8,25 @@
         <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
-        <div>
+        <div class="container">
             <h1>People entered:</h1>
-            <h2 id="count-el">0</h2>
-            <button id="increment-btn" onclick="increment()">INCREMENT</button>
-            <button id="clear-btn" onclick="reset()">CLEAR</button>
-            <button id="save-btn" onclick="save()">SAVE</button>
+            <p id="count-el">0</p>
+            <div>
+                <button id="increment-btn" onclick="increment()">
+                    INCREMENT
+                </button>
+                <button id="clear-btn" onclick="reset()">
+                    <img class="small-img" src="./reset.png"></img>
+                </button>
+            </div>
+            <div>
+                <button id="save-btn" onclick="save()">SAVE</button>
+                <button id="reset-all-btn" onclick="resetAll()">
+                    <img class="small-img" src="./delete.png"></img>
+                </button>
+            </div>
+            <h2>Saves</h2>
+            <p id="saves">None</p>
             <script src="index.js"></script>
         </div>
     </body>
