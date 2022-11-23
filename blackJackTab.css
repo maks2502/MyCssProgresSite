@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+    font-weight: bold;
+}
+body {
+    text-align: center;
+    background-color: green;
+}
+h1 {
+    color: goldenrod;
+    margin: 20px;
+}
+p {
+    color: white;
+    margin: 20px 0;
+}
+#message-el {
+    font-style: italic;
+}
+button {
+    background-color: goldenrod;
+    border: 0;
+    border-radius: 2px;
+    width: 200px;
+    height: 30px;
+    /* padding: 5px 30px; */
+    margin: 2px 0;
+    font-size: 1rem;
+    color: green;
+}

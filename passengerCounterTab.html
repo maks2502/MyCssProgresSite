@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PassengerCounter</title>
+        <link rel="stylesheet" href="./passengerCounterTab.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>People entered:</h1>
+            <p id="count-el">0</p>
+            <div>
+                <button id="increment-btn" onclick="increment()">
+                    INCREMENT
+                </button>
+                <button id="clear-btn" onclick="reset()">
+                    <img class="small-img" src="./reset.png"></img>
+                </button>
+            </div>
+            <div>
+                <button id="save-btn" onclick="save()">SAVE</button>
+                <button id="reset-all-btn" onclick="resetAll()">
+                    <img class="small-img" src="./delete.png"></img>
+                </button>
+            </div>
+            <h2>Saves</h2>
+            <p id="saves">None</p>
+            <script src="passengerCounterTab.js"></script>
+        </div>
+    </body>
+</html>
